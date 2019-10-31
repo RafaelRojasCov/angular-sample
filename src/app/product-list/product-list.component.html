@@ -1,7 +1,5 @@
 <h2>Products</h2>
 
-<h2>Products</h2>
-
 <div *ngFor="let product of products">
 
   <h3>
@@ -14,7 +12,11 @@
     Description: {{ product.description }}
   </p>
 
-  <app-product-alerts></app-product-alerts>
+  <button (click)="share()">
+    Share
+  </button>
+
+  <app-product-alerts [product]="product"></app-product-alerts>
 
 </div>
 
