@@ -7434,8 +7434,8 @@ webpack-dev-middleware@3.3.0:
     url-join "^4.0.0"
     webpack-log "^2.0.0"
 
-webpack-dev-server@3.1.8:
-  version "3.1.8"
+webpack-dev-server@^3.1.11:
+  version "3.1.11"
   resolved "https://registry.yarnpkg.com/webpack-dev-server/-/webpack-dev-server-3.1.8.tgz#eb7a95945d1108170f902604fb3b939533d9daeb"
   integrity sha512-c+tcJtDqnPdxCAzEEZKdIPmg3i5i7cAHe+B+0xFNK0BlCc2HF/unYccbU7xTgfGc5xxhCztCQzFmsqim+KhI+A==
   dependencies:
